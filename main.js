@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   
     pageItems.forEach(item => {
       item.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevent the default link behavior
+        event.preventDefault(); 
         pageItems.forEach(item => item.classList.remove('active'));
         this.classList.add('active');
       });
