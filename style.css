@@ -4,5 +4,13 @@
 }
 .fix-card{
    
- width: 200px; /* Adjust this value as needed */ height: 300px; /* Adjust this value as needed */ overflow: hidden; text-overflow: ellipsis; word-wrap: break-word; display: flex; flex-direction: column; justify-content: space-between
+ width: 200px; 
+ height: 300px;  
+ overflow: hidden; 
+ text-overflow: ellipsis; 
+ word-wrap: break-word; 
+ display: flex; 
+ flex-direction: column;
+ justify-content: space-between 
 }
+/* Dont Mind ABout THis */
