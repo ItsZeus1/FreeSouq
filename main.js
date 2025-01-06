@@ -26,6 +26,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
       }); 
       document.getElementById('prevButton').classList.toggle('disabled', currentPage === 1); 
       document.getElementById('nextButton').classList.toggle('disabled', currentPage === totalPages); 
-      updatePagination();
+      
     } 
-  
+    updatePagination();
