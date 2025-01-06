@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 
 
-  let currentPage = 2; 
+  let currentPage = 1; 
   const totalPages = 3; 
   function goToPage(page) 
   { currentPage = page; updatePagination();
