@@ -102,5 +102,5 @@
    } 
    else if (currentPage.includes("page3.html")) { 
     document.querySelector(".page-item.active").classList.remove("active");
-     document.querySelector(".page-item:nth-child(4)").classList.add("active"); }});\
+     document.querySelector(".page-item:nth-child(4)").classList.add("active"); }});
 
