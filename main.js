@@ -12,12 +12,12 @@
 //   // });
 
 
-//   // let currentPage = 1; 
-//   // const totalPages = 3; 
-  // function goToPage(page) 
-  // { currentPage = page; updatePagination();
+  let currentPage = 1; 
+  const totalPages = 3; 
+  function goToPage(page) 
+  { currentPage = page; updatePagination();
 
-  //  } 
+   } 
   function updatePagination() { 
   const pages = document.querySelectorAll('.pagination .page-item');
    pages.forEach(page => { page.classList.remove('active');
