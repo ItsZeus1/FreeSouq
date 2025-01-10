@@ -1,19 +1,19 @@
-document.addEventListener('DOMContentLoaded', (event) => {
-    const pagination = document.getElementById('pagination');
-    const pageItems = pagination.querySelectorAll('.page-item');
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     const pagination = document.getElementById('pagination');
+//     const pageItems = pagination.querySelectorAll('.page-item');
   
-//     pageItems.forEach(item => {
-//       item.addEventListener('click', function(event) {
-//         event.preventDefault(); 
-        pageItems.forEach(item => item.classList.remove('active'));
-        this.classList.add('active');
-      });
-    // });
-  // });
+// //     pageItems.forEach(item => {
+// //       item.addEventListener('click', function(event) {
+// //         event.preventDefault(); 
+//         pageItems.forEach(item => item.classList.remove('active'));
+//         this.classList.add('active');
+//       });
+//     // });
+//   // });
 
 
-  // let currentPage = 1; 
-  // const totalPages = 3; 
+//   // let currentPage = 1; 
+//   // const totalPages = 3; 
   // function goToPage(page) 
   // { currentPage = page; updatePagination();
 
@@ -93,14 +93,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
   document.addEventListener("DOMContentLoaded", function() { // Get the current page URL 
   var currentPage = window.location.pathname; // Determine which button to activate based on the current page 
   if (currentPage.includes("index.html")) { 
-    document.querySelector(".page-item.active").classList.remove("active"); 
+    document.querySelector(".page-item .active").classList.remove("active"); 
     document.getElementById("page1").classList.add("active"); 
   } 
   else if (currentPage.includes("page2.html")) { 
-    document.querySelector(".page-item.active").classList.remove("active"); 
+    document.querySelector(".page-item .active").classList.remove("active"); 
     document.getElementById("page2").classList.add("active");
    } 
    else if (currentPage.includes("page3.html")) { 
-    document.querySelector(".page-item.active").classList.remove("active");
+    document.querySelector(".page-item .active").classList.remove("active");
      document.getElementById("page3").classList.add("active"); }});
 
