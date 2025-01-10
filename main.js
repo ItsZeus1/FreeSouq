@@ -94,13 +94,13 @@
   var currentPage = window.location.pathname; // Determine which button to activate based on the current page 
   if (currentPage.includes("index.html")) { 
     document.querySelector(".page-item.active").classList.remove("active"); 
-    document.querySelector(".page-item:nth-child(2)").classList.add("active"); 
+    document.getElementById("page1").classList.add("active"); 
   } 
   else if (currentPage.includes("page2.html")) { 
     document.querySelector(".page-item.active").classList.remove("active"); 
-    document.querySelector(".page-item:nth-child(3)").classList.add("active");
+    document.getElementById("page2").classList.add("active");
    } 
    else if (currentPage.includes("page3.html")) { 
     document.querySelector(".page-item.active").classList.remove("active");
-     document.querySelector(".page-item:nth-child(4)").classList.add("active"); }});
+     document.getElementById("page3").classList.add("active"); }});
 
