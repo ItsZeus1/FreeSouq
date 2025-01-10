@@ -167,7 +167,24 @@
   
     <br>
     <div class="row justify-content-end container">
-         <div class="btn-toolbar">
+
+
+      <nav aria-label="...">
+        <ul class="pagination" id="pagination">
+          <li class="page-item disabled" id="prevButton">
+            <a class="page-link">Previous</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="index.html" onclick="goToPage(1)">1</a></li>
+          <li class="page-item " aria-current="page" >
+            <a class="page-link" href="page2.html" onclick="goToPage(2)">2</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="page3.html" onclick="goToPage(3)">3</a></li>
+          <li class="page-item" id="nextButton">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+         <!-- <div class="btn-toolbar">
   <div class="btn-group">
     <a class="btn btn-dark" href="index.html" alt="">1</a>
 <a class="btn btn-dark" href="page2.html" alt="">2</a>
@@ -175,7 +192,7 @@
 <a class="btn btn-dark" href="" alt="">4</a>
 <a class="btn btn-dark" href="" alt="">5</a>
 <a class="btn btn-dark" href="" alt="">6</a>
-<a class="btn btn-dark" href="" alt="">soon...</a>
+<a class="btn btn-dark" href="" alt="">soon...</a> -->
 
   </div>
 </div>
