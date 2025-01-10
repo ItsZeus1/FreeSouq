@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 // function goToPage(pageNumber) {
 //   // You can add any necessary code here if you want to handle page changes
 // }
+
 document.addEventListener("DOMContentLoaded", function() {
   var currentPage = window.location.pathname.split("/").pop();
 
