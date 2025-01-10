@@ -99,17 +99,17 @@
 // });
 
 
-  document.addEventListener("DOMContentLoaded", function() { // Get the current page URL 
-  var currentPage = window.location.pathname; // Determine which button to activate based on the current page 
-  if (currentPage.includes("index.html")) { 
-    document.querySelector(".page-item .active").classList.remove("active"); 
-    document.getElementById("page1").classList.add("active"); 
-  } 
-  else if (currentPage.includes("page2.html")) { 
-    document.querySelector(".page-item .active").classList.remove("active"); 
-    document.getElementById("page2").classList.add("active");
-   } 
-   else if (currentPage.includes("page3.html")) { 
-    document.querySelector(".page-item .active").classList.remove("active");
-     document.getElementById("page3").classList.add("active"); }});
+  // document.addEventListener("DOMContentLoaded", function() { // Get the current page URL 
+  // var currentPage = window.location.pathname; // Determine which button to activate based on the current page 
+  // if (currentPage.includes("index.html")) { 
+  //   document.querySelector(".page-item .active").classList.remove("active"); 
+  //   document.getElementById("page1").classList.add("active"); 
+  // } 
+  // else if (currentPage.includes("page2.html")) { 
+  //   document.querySelector(".page-item .active").classList.remove("active"); 
+  //   document.getElementById("page2").classList.add("active");
+  //  } 
+  //  else if (currentPage.includes("page3.html")) { 
+  //   document.querySelector(".page-item .active").classList.remove("active");
+  //    document.getElementById("page3").classList.add("active"); }});
 
