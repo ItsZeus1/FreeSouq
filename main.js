@@ -12,7 +12,16 @@
 //   // });
 
 
-  let currentPage = 1; 
+  let currentPage = window.location.pathname;
+  if(currentPage.includes("index.html")){
+    currentPage = 1 ; 
+  }
+  else if(currentPage.includes("page2.html")){
+    currentPage = 2 ; 
+  }
+  else if(currentPage.includes("page3.html")){
+    currentPage = 3 ;
+  }
   const totalPages = 3; 
   function goToPage(page) 
   { currentPage = page; updatePagination();
