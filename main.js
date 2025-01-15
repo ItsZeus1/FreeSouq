@@ -41,7 +41,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function() { 
-  var icon = document.querySelector('#toggleIcon'); 
+  var icon = document.querySelector('#togglePassword'); 
   icon.addEventListener('click', function() { 
     console.log('Icon clicked'); // Log when the icon is clicked 
     var currentSrc = icon.getAttribute('src'); 
