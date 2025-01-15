@@ -127,7 +127,6 @@
 //   // Toggle the eye and bi-eye icon
 //   this.classList.toggle('icofont-eye-close');
 // });
-
 document.addEventListener('DOMContentLoaded', function() {
     var icon = document.querySelector('#togglePassword');
     icon.addEventListener('click', function() {
