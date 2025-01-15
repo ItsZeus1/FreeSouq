@@ -127,3 +127,15 @@
 //   // Toggle the eye and bi-eye icon
 //   this.classList.toggle('icofont-eye-close');
 // });
+
+
+
+document.getElementById('form3Example4').onclick = function() {
+    var icon = document.getElementById('form3Example4');
+    if (icon.src.includes('eyeclose24.svg')) {
+        icon.src = 'eyeopen24.svg';
+    } else {
+        icon.src = 'eyeclose24.svg';
+    }
+};
+
