@@ -128,9 +128,6 @@
 //   this.classList.toggle('icofont-eye-close');
 // });
 
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     var icon = document.querySelector('#form3Example4');
     icon.addEventListener('click', function() {
