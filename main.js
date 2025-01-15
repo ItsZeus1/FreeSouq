@@ -128,7 +128,7 @@
 //   this.classList.toggle('icofont-eye-close');
 // });
 document.addEventListener('DOMContentLoaded', function() {
-    var icon = document.querySelector('#togglePassword');
+    var icon = document.getElementById('#togglePassword');
     icon.addEventListener('click', function() {
         if (icon.src.includes('eyeclose24.svg')) {
             icon.src = 'eyeopen24.svg';
