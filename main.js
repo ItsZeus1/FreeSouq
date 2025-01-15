@@ -113,3 +113,17 @@
   //   document.querySelector(".page-item .active").classList.remove("active");
   //    document.getElementById("page3").classList.add("active"); }});
 
+
+ const togglePassword = document
+  .querySelector('#togglePassword');
+const password = document.querySelector('#form3Example4');
+togglePassword.addEventListener('click', () => {
+  // Toggle the type attribute using
+  // getAttribure() method
+  const type = password
+      .getAttribute('type') === 'password' ?
+      'text' : 'password';
+  password.setAttribute('type', type);
+  // Toggle the eye and bi-eye icon
+  this.classList.toggle('bi-eye');
+});
