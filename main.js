@@ -129,7 +129,7 @@
 // });
 
 document.addEventListener('DOMContentLoaded', function() {
-    var icon = document.querySelector('#form3Example4');
+    var icon = document.querySelector('#togglePassword');
     icon.addEventListener('click', function() {
         if (icon.src.includes('eyeclose24.svg')) {
             icon.src = 'eyeopen24.svg';
