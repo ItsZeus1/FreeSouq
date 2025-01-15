@@ -130,12 +130,16 @@
 
 
 
-document.getElementById('form3Example4').onclick = function() {
-    var icon = document.getElementById('form3Example4');
-    if (icon.src.includes('eyeclose24.svg')) {
-        icon.src = 'eyeopen24.svg';
-    } else {
-        icon.src = 'eyeclose24.svg';
-    }
-};
+
+document.addEventListener('DOMContentLoaded', function() {
+    var icon = document.querySelector('#form3Example4');
+    icon.addEventListener('click', function() {
+        if (icon.src.includes('eyeclose24.svg')) {
+            icon.src = 'eyeopen24.svg';
+        } else {
+            icon.src = 'eyeclose24.svg';
+        }
+    });
+});
+
 
