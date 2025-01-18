@@ -1,233 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FREE SOUQ</title>
-    <link rel="stylesheet" href="pj1/css/bootstrap.css">
-
-    <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
-
-    <script src="pj1/js/popper.min.js"></script>
-    <script src="pj1/js/jquery-3.7.1.min.js"></script>
-    <script src="pj1/js/bootstrap.js"> </script>
-
+    <title>Hero 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.png">
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" media="print" as="font" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css"/>
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- animation Css -->
+    <link href="https://cdn.jsdelivr.net/gh/yesiamrocks/cssanimation.io@1.0.3/cssanimation.min.css" rel="stylesheet">
+    <!-- Responsive css -->
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
 
 </head>
+
 <body>
-    
-
-
-
-
-  
-    
-
-
-
-    
-
-<div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand text-success" href="#" >FreeSouq-فري سوق</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-           
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Login</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="ابحث هنا..." aria-label="Search">
-          <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-        </form>
-      </div>
-    </nav>
-
     <main>
-      <div class="container my-5">
-          <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
-            <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
-              <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Border hero with cropped image and shadows</h1>
-              <p class="lead">One popular and visually striking design technique is to create a border hero section with a cropped image and shadows. This design approach adds depth and dimension to your website's hero area, making it visually engaging and attention-grabbing.</p>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold">Primary</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
-              </div>
+        <!-- hero section start -->
+        <section class="d2c_hero d-flex align-items-center">
+            <div class="container position-relative">
+                <div class="row">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <div class="d2c_hero_content">
+                            <h2 class="d2c_hero_title">The Landing Page For Your App</h2>
+                            <p class="d2c_hero_text">The no need for a WI-Fi or mobile data plan. The choice of over 1 billion user around in the world. With we have optimized we help your team time when building websites.</p>
+                            <div class="d2c_hero_btn">
+                                <a href="#" class="btn d2c_primary_btn"><span>GET STARTED</span></a>
+                                <a href="#" class="btn d2c_secondary_btn"><span>LEARN MORE</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4 mb-md-0 d-flex align-items-center order-1 order-md-2">
+                        <div class="d2c_hero_img">
+                            <img class="w-100 cssanimation hu__hu__" src="./assets/images/hero-img.png" alt="Hero Image">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
-                <img class="rounded-lg-3" src="test-image.png" alt="" width="720">
-            </div>
-          </div>
-      </div>
-  </main>
-  </div>
-        
+        </section>
+        <!-- hero section end -->
+    </main>
 
+    <!-- Initial  Javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./lib/bootstrap/js/bootstrap.bundle.min.js" defer></script>
 
+    <!-- 
+      KIT Name: 10+ Hero Section – Bootstrap Bundle
+      Product URL: https://www.designtocodes.com/product/10-hero-section-bootstrap-bundle/
+      Product Description: The Hero section kit is made of all the basic elements you need to create a stunning website, from the start. 
+      Author: designtocodes.com
+      Author URI: https://www.designtocodes.com/
+    -->
 
-    <br>
-    <br>
-    <br>
-
-
-
-
-    <div id="carouselExampleIndicators" class="carousel slide container w-75">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" ></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <img src="png4.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item active">
-            <img src="png2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="png3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <a href="#carouselExampleIndicators" class="carousel-control-next" data-slide="next">
-       
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-        <a href="#carouselExampleIndicators" class="carousel-control-prev" data-slide="prev">
-          <span class="carousel-control-prev-icon" ></span>
-        </a>
-      </div>
-      <br> 
-
-     <div class="row">
-      <div class="col">
-        <div class="card">
-          <img src="cart.png" class="card-img" alt="">
-          <div class="card-body">
-           
-            <p class="card-text">test</p>
-            <div class="btn btn-success"><a href="details1.html" id="a1" alt=""> اضافة للعربة+</div></a>
-            <div class="btn btn-dark"><a href="" id="a1" alt="">تفاصيل !</div></a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card">
-          <img src="cart.png" class="card-img" alt="">
-          <div class="card-body">
-           
-            <p class="card-text">test</p>
-            <div class="btn btn-success"><a href="" id="a1" alt=""> اضافة للعربة+</div></a>
-            <div class="btn btn-dark"><a href="" id="a1" alt="">تفاصيل !</div></a>
-            
-          </div>
-        </div>
-      </div>
-     
-    
-     </div>
-     <br>
-
-     <div class="row">
-     
-      <div class="col">
-        <div class="card">
-          <img src="cart.png" class="card-img" alt="">
-          <div class="card-body">
-            
-            <p class="card-text">test</p>
-            <div class="btn btn-success"><a href="" id="a1" alt="">  اضافة للعربة + </a></div>
-            <div class="btn btn-dark"><a href="details1.html" id="a1" alt="">  التفاصيل! </a></div>
-          </div>
-        </div>
-      </div>
-      
-    
-      <div class="col">
-        <div class="card">
-          <img src="cart.png" class="card-img" alt="">
-          <div class="card-body">
-            
-            <p class="card-text">test</p>
-            <div class="btn btn-success"><a href="" id="a1" alt="">  اضافة للعربة + </a></div>
-            <div class="btn btn-dark"><a href="details1.html" id="a1" alt="">  التفاصيل! </a></div>
-          </div>
-        </div>
-      </div>
-    
-
-     </div>
-     
-    
-    
-     <style>
-      .active1{
-        z-index: 1;
-        color: #fff;
-        background-color: #007bff;
-        border-color: #007bff;}
-    </style>
-        
-    
-  
-    <br>
-    <div class="row justify-content-end container">
-     <nav aria-label="...">
-      <ul class="pagination" id="pagination">
-        <li class="page-item disabled" id="prevButton">
-          <a class="page-link" >Previous</a>
-        </li>
-      
-        <li class="page-item active"  id="page1">
-          <a class="page-link" href="index.html" onclick="goToPage(1)">1
-          </a>
-        </li>
-        <li class="page-item" aria-current="page" id="page2">
-          <a class="page-link"   href="page2.html" onclick="goToPage(2)"> 2 </a>
-        </li>
-        <li class="page-item" id="page3">
-          <a class="page-link"  href="page3.html" onclick="goToPage(3)">3 </a>
-        </li>
-        <li class="page-item" id="nextButton">
-          <a class="page-link"   href="#">Next</a>
-        </li>
-      </ul>
-     </nav>
-</div>
-</div>
-
-
-
-
-
-        
-           
 </body>
 </html>
