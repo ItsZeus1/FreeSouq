@@ -16,12 +16,29 @@ color: antiquewhite;
 text-decoration: none;
 }
 .fa-solid{
-    color: white;
+    color: aqua;
     height: 10px;
     width: 10px;
    
 }
-.y
-{
+
+.cart{
+    display:flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+    font-size: 18px;
+}
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 50%;
+    background-color: aqua;
     color: white;
 }
