@@ -38,7 +38,7 @@ text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 50%;
+    border-radius: 50%;
     background-color: aqua;
     color: white;
 }
