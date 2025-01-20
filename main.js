@@ -55,10 +55,10 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('New src:', icon.getAttribute('src')); 
     });
   });
-  let fa-solid fa-cart-shopping = document.querySelector('.fa-solid fa-cart-shopping');
+  let cart = document.querySelector('.cart');
   let closecart = document.querySelector('.close');
   let body = document.querySelector('body');
 
-  fa-solid fa-cart-shopping.addEventListener('click', () => {
+  cart.addEventListener('click', () => {
     body.classList.toggle('showcart')
   })
