@@ -55,3 +55,10 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('New src:', icon.getAttribute('src')); 
     });
   });
+  let cart = document.querySelector('.cart');
+  let closecart = document.querySelector('.close');
+  let body = document.querySelector('body');
+
+  cart.addEventListener('click', () => {
+    body.classList.toggle('showcart')
+  })

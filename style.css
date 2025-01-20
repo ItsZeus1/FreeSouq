@@ -42,3 +42,78 @@ text-decoration: none;
     background-color: gray;
     color: white;
 }
+.contaner{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+.carttab{
+    width: 400px;
+    background-color: black;
+    color: whitesmoke;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+body.showcart .carttab{
+    inset: 0 0 0 auto;
+}
+body.showcart .contaner{
+    transform: translatex(-250px);
+}
+.carttab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.carttab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.carttab .btn button{
+    background-color: yellow;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.carttab .btn .close{
+    background-color: white;
+}
+.carttab .listcart .item img{
+    width: 100%;
+}
+.carttab .listcart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listcart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.listcart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+.listcart .item:nth-child(even){
+    background-color: #eee1;
+}
+.listcart{
+    overflow: auto;
+}
+.listcart::-webkit-scrollbar{
+    width: 0;
+}
