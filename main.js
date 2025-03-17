@@ -55,4 +55,9 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('New src:', icon.getAttribute('src')); 
     });
   });
-  
+  let add =document.queryselector('#add')
+  let ccount=document.queryselector('#ccount')
+  add.onclick=function(){
+    ccount.vlaue=1
+    
+  }
