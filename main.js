@@ -58,6 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
  
   let add = document.querySelectorAll('#add');
   let count = document.querySelectorAll('#count');
-  add.onclick = innertext ='1';
- 
+  let cut = '1';
+  add.onclick = cut
   
